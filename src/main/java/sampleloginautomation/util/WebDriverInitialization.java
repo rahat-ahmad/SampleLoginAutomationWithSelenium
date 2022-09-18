@@ -13,7 +13,6 @@ public class WebDriverInitialization {
         ChromeOptions options = new ChromeOptions();
         options.setHeadless(false);
         WebDriver driver = new ChromeDriver(options);
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
         driver.manage().window().maximize();
         return driver;
     }

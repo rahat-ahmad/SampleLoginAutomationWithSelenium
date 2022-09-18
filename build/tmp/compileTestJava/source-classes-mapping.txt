@@ -1,0 +1,2 @@
+com/sampleloginautomation/LoginTest.java
+ com.sampleloginautomation.LoginTest
